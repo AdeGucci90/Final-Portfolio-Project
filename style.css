@@ -1,14 +1,58 @@
+@font-face {
+    font-family: "SpaceGrotesk-Bold";
+    src: url(fonts/static/SpaceGrotesk-Bold.ttf);
+    
+}
+
+@font-face {
+    font-family: "SpaceGrotesk-Medium";
+    src: url(fonts/static/SpaceGrotesk-Medium.ttf);
+
+}
+
 :root {
     --color-dark: #151515;
     --color-gray: #d9d9d9;
     --color-light: #ffffff;
     --color-gray-dark: #242424;
     --color-primary: #4EE1A0;
-    --font-body: 'Space Grotesk Medium' 18px 28px Line;
-    --font-heading-XL: 'Space Grotesk Bold' 88px 88px Line -2.5 Char.Spacing;
-    --font-heading-L:
-    --font-heading-M:
+   
+   
+}
 
+body {
+    font-family: var(--font-body);
+    color: var(--color-light);
+    background-color: var(--color-dark);
+
+}
+
+    header {
+        background-color: var(--color-dark);
+        padding: 1rem;
+        text-align: left;
+}
+
+nav p {
+    padding-left: 168px;
+    padding-top: 39px;
+    font-size: large;
+    color: var(--color-gray);
+    font-family: "spacegrotesk-Bold"
+
+}
+
+.profile-picture {
+    width: 400px; 
+    height: 700px;
+    position: fixed;
+    padding-left: 400px;
+}
+
+.social-links {
+   position: top;
+   
+   
 }
 
 * {
