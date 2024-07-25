@@ -13,16 +13,16 @@
 :root {
     --color-dark: #151515;
     --color-gray: #d9d9d9;
-    --color-light: #ffffff;
+    --color-primary-white: #ffffff;
     --color-gray-dark: #242424;
-    --color-primary: #4EE1A0;
+    --color-hover: #4EE1A0;
    
    
 }
 
 body {
     font-family: var(--font-body);
-    color: var(--color-light);
+    color: var(--color-primary-white);
     background-color: var(--color-dark);
 
 }
@@ -37,20 +37,29 @@ nav p {
     padding-left: 168px;
     padding-top: 39px;
     font-size: large;
-    color: var(--color-gray);
+    margin-left: 10px;
+    color: var(--color-primary-white);
     font-family: "spacegrotesk-Bold"
 
 }
 
-.profile-picture {
-    width: 400px; 
-    height: 700px;
-    position: fixed;
-    padding-left: 400px;
+.profile-picture img {
+    position: absolute; 
+    width: 445px;
+    height: 720px;
+    left: 830px;
+    top: 0px;
 }
 
 .social-links {
-   position: top;
+   position: absolute;
+   width: 192.49px;
+   height: 25px;
+   top: 43px;
+   left: 1120px;
+   gap: 1000px;
+
+
    
    
 }
@@ -59,4 +68,66 @@ nav p {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.about {
+    text-align: left;
+    padding: 100px;
+    margin-left: 5%;
+}
+
+.intro h1 {
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 90px;
+    letter-spacing: -2.5px;
+    text-align: left;
+    font-family: "spacegrotesk-Bold";
+    color: var(--color-primary-white);
+}
+
+.Rectangle-line {
+    padding-left: 18%;
+    
+}
+
+.intro p {
+    font-family: "spacegrotesk-Medium";
+    font-size: 1rem;
+    color: var(--color-primary-white);
+}
+
+.contact-me {
+    font-family: "spacegrotesk-Medium";
+font-size: 16px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 2.2857143878936768px;
+text-align: left;
+
+    color: var(--color-primary-white);
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 100px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 1rem;
+    background-color: var(--color-dark);
+    color: var(--color-primary-white);
+}
+
+.skill {
+    text-align: center;
+}
+
+.skill h2 {
+    font-size: 1.5rem;
+}
+
+.skill p {
+    font-size: 1rem;
+    color: var(--color-gray);
 }
